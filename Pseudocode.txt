@@ -1,0 +1,31 @@
+READ AND WRITE "jumlah_siswa" with number
+For i = 1 to jumlah_siswa
+    READ AND WRITE "nama" with string
+    READ AND WRITE "no_induk" with number
+    READ AND WRITE "n_mat" with number
+    READ AND WRITE "n_ipa" with number
+    READ AND WRITE "n_indo" with number
+    READ AND WRITE "n_inggris" with number
+
+    Processing total = (n_mat + n_ipa + n_indo + n_inggris)/4
+
+    if the total between 80 - 100 
+        set indeks = "A"
+    else if the total between 65 - 79,99
+        set indeks = "B"
+    else if the total between 55 - 64,99
+        set indeks = "C"
+    else if the total between 40 - 54,99
+        set indeks = "D"
+    else the total lower than 40
+        set indeks = "E"
+    
+    print "Selamat telah mengikuti kegiatan di semester ini, anda mendapatkan " + total + " sehingga 
+            indeks nilai anda adalah " + indeks
+    
+    if total lower than 65
+        print "Mohon maaf anda TIDAK LULUS"
+    else 
+        print "Selamat anda LULUS"
+Next jumlah_siswa
+EndFor
