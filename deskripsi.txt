@@ -1,0 +1,4 @@
+Ini berisi tentang deskripsi aplikasi :
+Aplikasi ini merupakan aplikasi untuk melihat hasil belajar siswa yang diperoleh dari nilai yang mereka dapatkan.
+Aplikasi ini dirancang untuk membantu guru yang masih menggunakan kalkulator sederhana dalam menghitung nilai siswa.
+Selain itu, aplikasi ini dirancang untuk memperkecil kesalahan yang terjadi.
